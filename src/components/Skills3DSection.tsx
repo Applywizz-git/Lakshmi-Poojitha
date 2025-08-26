@@ -21,7 +21,7 @@ const skillCategories = [
     title: "Backend Technologies",
     color: "from-purple-500 to-purple-700",
     skills: [
-      { name: "Java", level: 98, icon: "☕" },
+      { name: "Python", level: 98, icon: "☕" },
       { name: "Spring Boot", level: 95, icon: "🍃" },
       { name: "Spring Security", level: 90, icon: "🔒" },
       { name: "Hibernate/JPA", level: 88, icon: "🗄️" },
@@ -52,69 +52,7 @@ const skillCategories = [
   }
 ];
 
-  // const skillCategories = [
-  //   {
-  //     title: "Frontend Technologies",
-  //     color: "from-accent to-accent/70",
-  //     skills: [
-  //       { name: "React.js", level: 95, icon: "⚛️" },
-  //       { name: "TypeScript", level: 90, icon: "📘" },
-  //       { name: "HTML5/CSS3", level: 95, icon: "🎨" },
-  //       { name: "Tailwind CSS", level: 85, icon: "🎭" },
-  //       { name: "JavaScript", level: 95, icon: "⚡" }
-  //     ]
-  //   },
-  //   {
-  //     title: "Backend Technologies",
-  //     color: "from-secondary to-secondary/70",
-  //     skills: [
-  //       { name: "Java", level: 98, icon: "☕" },
-  //       { name: "Spring Boot", level: 95, icon: "🍃" },
-  //       { name: "Spring Security", level: 90, icon: "🔒" },
-  //       { name: "Hibernate/JPA", level: 88, icon: "🗄️" },
-  //       { name: "RESTful APIs", level: 95, icon: "🔗" }
-  //     ]
-  //   },
-  //   {
-  //     title: "Cloud & DevOps",
-  //     color: "from-accent/80 to-secondary",
-  //     skills: [
-  //       { name: "AWS", level: 85, icon: "☁️" },
-  //       { name: "Docker", level: 88, icon: "🐳" },
-  //       { name: "Kubernetes", level: 80, icon: "⚙️" },
-  //       { name: "Jenkins", level: 85, icon: "🔧" },
-  //       { name: "Terraform", level: 75, icon: "🏗️" }
-  //     ]
-  //   },
-  //   {
-  //     title: "Databases & Tools",
-  //     color: "from-secondary/80 to-accent/60",
-  //     skills: [
-  //       { name: "PostgreSQL", level: 90, icon: "🐘" },
-  //       { name: "MongoDB", level: 85, icon: "🍃" },
-  //       { name: "Redis", level: 80, icon: "🔴" },
-  //       { name: "Git", level: 95, icon: "📊" },
-  //       { name: "Maven/Gradle", level: 90, icon: "📦" }
-  //     ]
-  //   }
-  // ];
 
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver(
-  //     ([entry]) => {
-  //       if (entry.isIntersecting) {
-  //         setIsVisible(true);
-  //       }
-  //     },
-  //     { threshold: 0.3 }
-  //   );
-
-  //   if (containerRef.current) {
-  //     observer.observe(containerRef.current);
-  //   }
-
-  //   return () => observer.disconnect();
-  // }, []);
 
   useEffect(() => {
      const el = containerRef.current;
@@ -262,7 +200,7 @@ const skillCategories = [
           <div className="mt-20">
             <div className="grid sm:grid-cols-3 gap-8">
               {[
-                { number: "4+", label: "Years Experience", delay: "0ms" },
+                { number: "2+", label: "Years Experience", delay: "0ms" },
                 { number: "3", label: "Projects Completed", delay: "200ms" },
                 { number: "15+", label: "Technologies Mastered", delay: "400ms" }
               ].map((stat, index) => (
